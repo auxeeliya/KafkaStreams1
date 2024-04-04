@@ -1,0 +1,2 @@
+kafka-console-producer --broker-list 172.20.0.1:9092 --topic spring.boot.kafka.streams.input
+kafka-console-consumer --bootstrap-server 172.20.0.1:9092 --topic spring.boot.kafka.streams.output --from-beginning

@@ -1,0 +1,5 @@
+spring:
+  kafka:
+    streams:
+      bootstrap-servers: "172.20.0.1:9091"
+      application-id: "spring-kafka-streams-application-id"
